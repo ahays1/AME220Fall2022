@@ -11,11 +11,11 @@
 </head>
 
 <body>
-<img src='https://www.google.com/logos/doodles/2022/katarzyna-kobros-124th-birthday-6753651837109344.2-l.webp'>
+<img src='https://i.pinimg.com/originals/64/ea/3b/64ea3ba2eb020830e58e56732843ac59.png'>
 <h1> Amber Hays </h1>
-<a href="mailto:aahays@asu.edu">aahays@asu.edu</a>
-
-<a href="tel:+15208738763">+1 (520) 873-8763</a>
+<p><a href="mailto:aahays@asu.edu">aahays@asu.edu</a></p>
+<br />
+<p><a href="tel:+15208738763">+1(520) 873-8763</a></p>
 
 <h2> Objective </h2>
 <p> Passionate student seeking internship in web design </p>
@@ -25,8 +25,8 @@
 		<thead>
 			<tr>
 				<th>Degree/Diploma</th>
-				<th>Empire High School</th>
-				<th>Year</th>
+				<th>Arizona State University</th>
+				<th>Estimated Graduation: Dec 2026</th>
 			</tr>
 		</thead>
 		<tbody>
