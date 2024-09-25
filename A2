@@ -24,25 +24,21 @@
 		<thead>
 			<tr>
 				<th>Degree/Diploma</th>
-				<th>Arizona State University</th>
-				<th>Estimated Graduation: Dec 2026</th>
+				<th>School</th>
+				<th>Graduation</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
+				<td>Media Arts and Sciences</td>
+				<td>Arizona State University</td>
+				<td>Estimated Graduation: Dec 2026</td>
 			</tr>
+		
 			<tr>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
-			</tr>
-			<tr>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
+				<td>N/A</td>
+				<td>Empire High School</td>
+				<td>May 2023</td>
 			</tr>
 		</tbody>
 	</table>
