@@ -90,3 +90,10 @@ rgba(127, 123, 224, .4) = Hex: #7f7be0
 	127 = 16 * 7 + 1 * 15 = 7f
 	123 = 16 * 7 + 1 * 11 = 7b
 	224 = 16 * 14 + 1 * 0 = e0
+
+
+	//Question 2:
+	List 4 css properties that need color values.
+	
+	RGB/RGBA, Hexa-Decimal Values, HSL (Hue, Saturation, Lightness), Opacity
+	
