@@ -1,0 +1,180 @@
+<!doctuype html>
+<html>
+<head>
+  <title> My Resume </title>
+  <style>
+    th, td {
+      border: 1px solid rgb(215, 0, 255);
+      border-radius: 10px;
+    }
+.accordion {
+  background-color: #9051ff;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #e8c4ff; 
+}
+.panel {
+  padding: 0 10px;
+  display: none;
+  background-color: #ff7bf1;
+  overflow: hidden;
+}
+</style>
+  </style>
+</head>
+
+<body>
+<img src='https://i.pinimg.com/originals/64/ea/3b/64ea3ba2eb020830e58e56732843ac59.png'>
+<h1 align="center" {
+  font-family:Copperplate;
+}> Amber Hays </h1>
+<p align="center"><a href="mailto:aahays@asu.edu">aahays@asu.edu</a></p>
+<p align="center"><a href="tel:+15208738763"> +1 (520) 873-8763</a></p>
+
+<h2> Objective </h2>
+<p> Passionate student seeking internship in web design</p>
+    
+<h2> Education </h2>
+	<table style='border: 1px solid black;border-collapse: collapse'>
+		<thead>
+			<tr>
+				<th>Degree/Diploma</th>
+				<th>School</th>
+				<th>Graduation</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Media Arts and Sciences</td>
+				<td>Arizona State University</td>
+				<td>Estimated Graduation: Dec 2026</td>
+			</tr>
+		
+			<tr>
+				<td>N/A</td>
+				<td>Empire High School</td>
+				<td>May 2023</td>
+			</tr>
+		</tbody>
+	</table>
+
+<h2> Experience </h2>
+
+<button class="accordion">
+	<p>
+<strong> Barista </strong> 
+</p></button>
+<div class="panel">
+  <p>
+<p><strong>Aramark Starbucks</strong></p>
+<p>
+-Enthusiastically operated register and greeted customers</p>
+<p>
+-Memorized and followed drink recipes with diligence
+</p><p>
+-Reacted quickly to any issues that arose
+</p><p>
+-Cooperated with coworkers to open/close the store efficiently
+</p>
+
+</li></p>
+</div>
+
+<button class="accordion">
+<strong> TWMG Intern </strong></p></button>
+<div class="panel">
+  <p><p>
+<strong> Tucson Watershed Management Group </strong></p><p>
+-Utilized social skills to create friendly atmosphere</p>
+<p>
+-Promoted creativity and sustainability by leading family-friendly crafts
+</p><p>
+-Helped plan and create activities for large groups of people
+</p><p>
+-Lifted heavy objects and cleaned in the setting up and closing of events
+</p>
+</div>
+
+<h2> References </h2>
+
+<button class="accordion">
+	<p>
+<strong> Jalaya Padbury </strong> 
+</p></button>
+<div class="panel">
+<p>
+	<strong>Starbucks Shift Lead</strong>
+</p><p>
+	Padbury-jalaya@aramark.com
+</p><p>
+	720-625-0990
+	</p>
+    
+</li></p>
+</div>
+  
+<button class="accordion">
+	<p>
+<strong> 
+		Cindy Hu </strong> 
+</p></button>
+<div class="panel">
+	<p>
+		<strong>TWMG Community and Youth Education Manager</strong>
+	</p><p>
+		chu@watershedmg.org
+	</p><p>
+		520-396-3266
+		</p>
+        
+
+</li></p>
+</div>
+
+<button class="accordion">
+	<p>
+<strong> 
+		Jonah Ivy </strong> 
+</p></button>
+<div class="panel">	
+	</p><p>
+		<strong>TWMG Mentor</strong>
+	</p><p>
+		jonahthecoyote@gmail.com
+	</p><p>
+		480-640-7771
+		</p>
+
+</li></p>
+</div>
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
